@@ -272,7 +272,7 @@ numero é avaliado em cada caso:
 Não é necessário utilizar break após cada caso, pois o comportamento padrão do switch em Go é sair do switch após executar o caso correspondente.
 
 
-### Switch com condicionais
+#### Switch com condicionais
 
 Neste exemplo o código abaixo ilustra como usar um switch em vez de múltiplos if e else if:
 
