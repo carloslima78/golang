@@ -1,0 +1,47 @@
+###
+### Listar Usuários (GET)
+###
+
+GET http://localhost:8082/users
+
+###
+### Criar Usuário (POST)
+###
+
+POST http://localhost:8082/users/create
+Content-Type: application/json
+
+{
+    "name": "Alice",
+    "email": "alice@example.com"
+}
+
+###
+### Atualizar Usuário (PUT)
+###
+
+PUT http://localhost:8082/users/update
+Content-Type: application/json
+
+{
+    "id": 1,
+    "name": "Alice Smith",
+    "email": "alice.smith@example.com"
+}
+
+###
+### Deletar Usuário (DELETE)
+###
+
+DELETE http://localhost:8082/users/delete
+Content-Type: application/json
+
+{
+    "id": 1
+}
+
+###
+### Buscar Usuário por ID (GET)
+###
+
+GET http://localhost:8082/users/get?id=3
