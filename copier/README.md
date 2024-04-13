@@ -34,7 +34,9 @@ A documentação oficial do `Copier` pode ser encontrada no [GitHub: Copier](htt
 
 ### Caso de Uso
 
-Vamos considerar um caso de uso com um exemplo simples, onde temos duas estruturas: `UserRequest` e `UserDomain`, cada uma representando diferentes estados de um usuário. A `UserRequest` é o objeto de entrada que pode ser utilizado como parâmetro de entrada em uma API REST, enquanto `UserDomain` é o objeto de domínio com mais detalhes sobre o usuário.
+Vamos considerar um caso de uso bem simples, onde temos duas estruturas: `UserRequest` e `UserDomain`, cada uma representando diferentes estados de um usuário. 
+
+A `UserRequest` é o objeto que pode ser utilizado como parâmetro de entrada em uma API REST, enquanto `UserDomain` é o objeto de domínio com os detalhes sobre o usuário.
 
 
 ### Instalando o Copier
