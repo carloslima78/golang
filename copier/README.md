@@ -12,9 +12,7 @@
 - [Executando o código](#executando-o-código)
 - [Conclusão](#conclusão)
 
-A manipulação de dados entre diferentes estruturas (`structs`) pode ser uma tarefa tediosa em linguagens como Go. Para simplificar esse processo, o pacote `Copier` oferece uma solução elegante e direta. 
-
-O **Copier** pode ser comparado a ferramentas de mapeamento de objetos disponívels para outras linguagens, como o **AutoMapper** utilizado em **C#** e ao **ModelMapper** utilizado em **Java**.
+A conversão e mapeamento de dados entre diferentes estruturas (`structs`) pode ser uma tarefa tediosa em linguagens como Go. Para simplificar esse processo, o pacote `Copier` oferece uma solução elegante e direta. 
 
 Vamos explorar como isso pode ser feito.
 
@@ -22,6 +20,8 @@ Vamos explorar como isso pode ser feito.
 ## O que é o Copier?
 
 O `Copier` é um pacote para Go que permite copiar dados de um tipo de struct para outro de forma simples e eficiente. Ele evita a necessidade de escrever código manualmente para atribuir campo por campo, facilitando o trabalho com estruturas de dados complexas.
+
+O `Copier` pode ser comparado a ferramentas de mapeamento de objetos disponívels para outras linguagens, como o `AutoMapper` utilizado em `C#` e ao `ModelMapper` utilizado em `Java`.
 
 
 ### Documentação Oficial do Copier
@@ -32,7 +32,9 @@ A documentação oficial do `Copier` pode ser encontrada no [GitHub: Copier](htt
 
 ## Mão na massa
 
-Vamos considerar um exemplo simples onde temos duas estruturas: `UserRequest` e `UserDomain`, cada uma representando diferentes estados de um usuário. A `UserRequest` é o objeto de entrada, enquanto `UserDomain` é o objeto de domínio com mais detalhes.
+### Caso de Uso
+
+Vamos considerar um caso de uso com um exemplo simples, onde temos duas estruturas: `UserRequest` e `UserDomain`, cada uma representando diferentes estados de um usuário. A `UserRequest` é o objeto de entrada que pode ser utilizado como parâmetro de entrada em uma API REST, enquanto `UserDomain` é o objeto de domínio com mais detalhes sobre o usuário.
 
 
 ### Instalando o Copier
