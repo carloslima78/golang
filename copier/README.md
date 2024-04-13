@@ -14,7 +14,7 @@
 
 A manipulação de dados entre diferentes estruturas (`structs`) pode ser uma tarefa tediosa em linguagens como Go. Para simplificar esse processo, o pacote `Copier` oferece uma solução elegante e direta. 
 
-O **Copier** é pode ser comparado a ferramentas de mapeamento de objetos disponívels para outras linguagens, como o **AutoMapper** utilizado em **C#** e ao **ModelMapper** utilizado em **Java**.
+O **Copier** pode ser comparado a ferramentas de mapeamento de objetos disponívels para outras linguagens, como o **AutoMapper** utilizado em **C#** e ao **ModelMapper** utilizado em **Java**.
 
 Vamos explorar como isso pode ser feito.
 
