@@ -37,7 +37,7 @@ Vale observar que o `Copier` considera o nome de campo informado na tag para rea
 Por exemplo, na struct UserRequest:
 
 O campo ID possui a tag `copier:"ID"`, indicando que ele deve ser copiado para o campo ID da struct `UserDomain`.
-O mesmo se aplica aos demais campos, como Name, Email, Password e Address.
+O mesmo se aplica aos demais campos, como `Name`, `Email`, `Password` e `Address`.
 
 
 ### Estrutura de Dados: UserRequest
@@ -54,7 +54,7 @@ type UserRequest struct {
 }
 ```
 
-A struct `UserRequest` possui campos como *ID, Name, Email, Password e Address*, que são os dados de um usuário que queremos copiar para outra struct.
+A struct `UserRequest` possui campos como `ID`, `Name`, `Email`, `Password` e `Address`, que são os dados de um usuário que queremos copiar para outra struct.
 
 
 ### Estrutura de Dados: AddressRequest
@@ -70,7 +70,7 @@ type AddressRequest struct {
 }
 ```
 
-A struct `AddressRequest` possui campos como *Street, City, State e Zip*, que são os dados de endereço de um usuário.
+A struct `AddressRequest` possui campos como `Street`, `City`, `State` e `Zip`, que são os dados de endereço de um usuário.
 
 
 ### Estrutura de Dados: UserDomain
@@ -87,7 +87,7 @@ type UserDomain struct {
 }           `
 ```
 
-A struct `UserDomain` possui campos como *ID, Name, Email, Password e Address*, que são os dados completos de um usuário, incluindo seu endereço.
+A struct `UserDomain` possui campos como `ID`, `Name`, `Email`, `Password` e `Address`, que são os dados completos de um usuário, incluindo seu endereço.
 
 
 ### Estrutura de Dados: AddressDomain
@@ -103,7 +103,7 @@ type AddressDomain struct {
 }
 ```
 
-A struct `AddressDomain` possui campos como *Street, City, State e Zip*, que são os dados completos de endereço de um usuário.
+A struct `AddressDomain` possui campos como `Street`, `City`, `State` e `Zip`, que são os dados completos de endereço de um usuário.
 
 
 ### Função Main: Testando a conversão das structs
