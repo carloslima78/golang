@@ -1,5 +1,17 @@
 # Copier: Simplificando a Cópia de Structs em Golang
 
+- [O que é o Copier?](#o-que-é-o-copier)
+- [Mão na massa](#mão-na-massa)
+  - [Instalando o Copier](#instalando-o-copier)
+  - [Tag copier](#tag-copier)
+  - [Estrutura de Dados: UserRequest](#estrutura-de-dados-userrequest)
+  - [Estrutura de Dados: AddressRequest](#estrutura-de-dados-addressrequest)
+  - [Estrutura de Dados: UserDomain](#estrutura-de-dados-userdomain)
+  - [Estrutura de Dados: AddressDomain](#estrutura-de-dados-addressdomain)
+  - [Função Main: Testando a conversão das structs](#função-main-testando-a-conversão-das-structs)
+- [Executando o código](#executando-o-código)
+- [Conclusão](#conclusão)
+
 A manipulação de dados entre diferentes estruturas (`structs`) pode ser uma tarefa tediosa em linguagens como Go. Para simplificar esse processo, o pacote `Copier` oferece uma solução elegante e direta. 
 Vamos explorar como isso pode ser feito.
 
