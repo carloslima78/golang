@@ -9,6 +9,12 @@ Vamos explorar como isso pode ser feito.
 O `Copier` é um pacote para Go que permite copiar dados de um tipo de struct para outro de forma simples e eficiente. Ele evita a necessidade de escrever código manualmente para atribuir campo por campo, facilitando o trabalho com estruturas de dados complexas.
 
 
+### Documentação Oficial do Copier
+
+A documentação oficial do `Copier` pode ser encontrada no [GitHub: Copier](https://github.com/jinzhu/copier)
+. Lá podemos encontrar mais detalhes sobre como usar o pacote, exemplos adicionais e informações sobre as opções disponíveis para a cópia de dados entre structs em Go.
+
+
 ## Instalando o Copier
 
 Antes de começar, certifique-se de ter o Copier instalado em seu ambiente Go. Você pode obtê-lo facilmente utilizando o comando:
@@ -156,11 +162,6 @@ Isso compilará e executará o programa. A saída no terminal deve apresentar o 
 Converted UserRequest to UserDomain: main.UserDomain{ID:"1", Name:"Carlos Soares", Email:"carlos.soares@example.com", Password:"123456", Address:main.AddressDomain{Street:"Rua A", City:"São Paulo", State:"SP", Zip:"01234-567"}} 
 ```
 
-
-## Documentação Oficial do Copier
-
-A documentação oficial do `Copier` pode ser encontrada no [GitHub: Copier](https://github.com/jinzhu/copier)
-. Lá podemos encontrar mais detalhes sobre como usar o pacote, exemplos adicionais e informações sobre as opções disponíveis para a cópia de dados entre structs em Go.
 
 ## Conclusão
 
