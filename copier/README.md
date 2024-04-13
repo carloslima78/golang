@@ -15,17 +15,18 @@ A documentação oficial do `Copier` pode ser encontrada no [GitHub: Copier](htt
 . Lá podemos encontrar mais detalhes sobre como usar o pacote, exemplos adicionais e informações sobre as opções disponíveis para a cópia de dados entre structs em Go.
 
 
-## Instalando o Copier
+## Mão na massa
 
-Antes de começar, certifique-se de ter o Copier instalado em seu ambiente Go. Você pode obtê-lo facilmente utilizando o comando:
+Vamos considerar um exemplo simples onde temos duas estruturas: `UserRequest` e `UserDomain`, cada uma representando diferentes estados de um usuário. A `UserRequest` é o objeto de entrada, enquanto `UserDomain` é o objeto de domínio com mais detalhes.
+
+
+### Instalando o Copier
+
+Antes de começar, certifique-se de ter o `Copier`instalado em seu ambiente Go. Você pode obtê-lo facilmente utilizando o comando:
 
 ```bash
 go get github.com/jinzhu/copier
 ```
-
-## Mão na massa
-
-Vamos considerar um exemplo simples onde temos duas estruturas: `UserRequest` e `UserDomain`, cada uma representando diferentes estados de um usuário. A `UserRequest` é o objeto de entrada, enquanto `UserDomain` é o objeto de domínio com mais detalhes.
 
 ### Tag copier
 
