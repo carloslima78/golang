@@ -311,7 +311,7 @@ Se estiver usando uma ferramenta como o Postman ou Insomnia, os passos seriam se
 Caso a porta utilizada fique presa no processo, utilize o comando abaixo para liberar:
 
 ```bash
-kill -9 $(lsof -t -i:8080)
+kill -9 $(lsof -t -i:8081)
 ```
 
 ## Conclusão

@@ -40,7 +40,7 @@ func main() {
 	http.HandleFunc("/user/", handleGetUser) // Rota para buscar um usuário por ID
 
 	fmt.Println("Servidor rodando em http://localhost:8080")
-	log.Fatal(http.ListenAndServe(":8080", nil))
+	log.Fatal(http.ListenAndServe(":8081", nil))
 }
 
 // Manipulador para buscar todos os usuários
