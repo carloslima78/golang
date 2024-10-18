@@ -5,6 +5,8 @@ import (
 	"io/ioutil"
 	"log"
 
+	// Baixar Dependência: go get gopkg.in/yaml.v3
+
 	"gopkg.in/yaml.v3"
 )
 
