@@ -1,2 +1,0 @@
-db_connection: "user:password@/dbname"
-table_name: "minha_tabela"

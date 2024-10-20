@@ -1,0 +1,5 @@
+
+http_port:     "8080"
+db_engineer:   "postgres"
+db_connection: "user:password@/dbname"
+table_name:    "tb_users"
